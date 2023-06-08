@@ -126,7 +126,7 @@ function buildAndShowHomeHTML (categories) {
       // ....
       // insertHtml(homeHtml, homeHtmlToInsertIntoMainPage);
       // console.log(homeHtmlToInsertIntoMainPage);
-      console.log(homeHtml);
+      console.log(chosenCategoryShortName);
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
 }
